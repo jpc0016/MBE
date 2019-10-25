@@ -1,3 +1,5 @@
+### Forked for jpc0016 work
+
 # Modern Binary Exploitation - CSCI 4968
 This repository contains the materials as developed and used by [RPISEC](http://rpis.ec) to
 teach Modern Binary Exploitation at [Rensselaer Polytechnic Institute](http://rpi.edu) in
@@ -179,7 +181,7 @@ Once you exploit a level and escalate to the next user (confirm with `whoami`), 
 
 ___
 ### Option Two - Make a Custom Warzone
-We have provided a bash script that will fully setup the exact environment in the provided VM. 
+We have provided a bash script that will fully setup the exact environment in the provided VM.
 
 **DO NOT RUN THIS SCRIPT ON YOUR PERSONAL COMPUTER, RUN IT IN A VIRTUAL MACHINE**
 
@@ -202,7 +204,7 @@ Account names are case sensitive, so please check that you're logging in as lab1
 The warzone marks many files as immutable to prevent users from changing them and
 ruining the game for other players. For example, we don't want the lab2B user to
 delete its `.pass` file or `/levels` files. A few system files, such as `/etc/passwd`,
-are also marked immutable. 
+are also marked immutable.
 
 If you would like to modify or delete these files simply remove the immutable flag
 ```bash
@@ -226,7 +228,7 @@ ask on [IRC](#contact).
 This was a very hands on course, so almost every lecture we had students slinging GDB commands
 or following along with us on screen. The slides were accessory to the lectures and may have
 gaps or experience brevity at times. With seven of us creating and giving lectures, the slides
-and teaching styles vary a bit. We did our best to keep them consistent. 
+and teaching styles vary a bit. We did our best to keep them consistent.
 
 #### Do you have videos of the lectures?
 Sadly we did not record any of the lectures, maybe next time.
@@ -234,17 +236,17 @@ Sadly we did not record any of the lectures, maybe next time.
 #### Why provide the lab sources to the students?
 We're huge fans of reversing / CTF challenges, but reversing is mostly a time problem. With
 students juggling other classes and work during the school semester, we'd rather them focus on
-learning the exploitation techniques without the overhead of reversing every binary. 
+learning the exploitation techniques without the overhead of reversing every binary.
 
 #### These challenges are really easy, what gives?
-The 50 students that enrolled had little to no prior computer security experience. The labs 
+The 50 students that enrolled had little to no prior computer security experience. The labs
 are not designed to be novel CTF challenges, they're meant to be more academic examples paced
 to crystallize the concepts. Seasoned CTF'ers can probably blow through most of these
-challenges in a day or two. 
+challenges in a day or two.
 
 #### Why didn't you cover subject XYZ?
 If XYZ is related to vulnerability research, we're all ears. The course is far from perfect
-and we are open to hear any feedback for improving it. 
+and we are open to hear any feedback for improving it.
 
 #### Will this course be taught again at RPI?
 There's a lot of interest in having it offered again, so it's being considered for Spring
